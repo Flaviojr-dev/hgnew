@@ -1,27 +1,30 @@
 # HGTEAM — conceito de redesign
 
-Demonstração não oficial de landing page para Hugo Gouveia. O projeto usa React, Vite, CSS responsivo e Motion para transições leves.
+Landing page demonstrativa para Hugo Gouveia, feita com React, Vite, CSS responsivo e Motion. O visual usa uma foto real de Hugo e prioriza a leitura no celular.
 
-## Executar
+## Executar localmente
 
 ```powershell
 npm install
 npm run dev
 ```
 
-Abra o endereço local mostrado no terminal. Para testar o build de produção:
+Para gerar o build de produção:
 
 ```powershell
 npm run build
 ```
 
-## Duas direções de hero
+`/mobile-preview.html` abre uma prévia da página em uma área de 390 × 844 px.
 
-- `/`: direção editorial em preto e branco, escolhida para a página principal.
-- `/?hero=movement`: direção de movimento com a fotografia em cor.
-- `/mobile-preview.html`: prévia da hero em uma área de 390 × 844 px.
-- `/mobile-preview.html?hero=movement`: prévia mobile da segunda direção.
+## Capturas
 
-As fotos vieram da página pública atual do HGTEAM e são usadas apenas nesta demonstração local. Confirme com Hugo a autorização para exibir as imagens em portfólio público, além do número de WhatsApp, CREF, textos profissionais, disponibilidade do atendimento presencial e condições dos serviços antes de um lançamento oficial.
+- [Hero mobile](screenshots/hero-mobile-390.jpg)
+- [Hero desktop](screenshots/hero-desktop.jpg)
+- [Card presencial em 320 px](screenshots/acompanhamento-320.jpg)
 
-O site não inclui depoimentos, resultados ou preços porque não foram confirmados. Os botões de WhatsApp para consultoria online e atendimento presencial enviam mensagens diferentes.
+## Uso
+
+Este é um conceito de redesign para portfólio, não uma página oficial do HGTEAM. Os links de WhatsApp usam mensagens diferentes para consultoria online e acompanhamento presencial. Antes de qualquer uso oficial, confirme com Hugo o número, CREF, fotos, local de atendimento e condições dos serviços.
+
+Não há preços, depoimentos ou resultados inventados.
